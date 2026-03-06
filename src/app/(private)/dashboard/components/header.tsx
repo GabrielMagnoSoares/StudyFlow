@@ -1,6 +1,9 @@
+'use client'
+
 import { Button } from "@/components/ui/button";
 import { Bell, BookOpen, Settings, User } from "lucide-react";
 import Link from "next/link";
+import Logout from "./logout";
 
 export function DashboardHeader() {
   return (
@@ -41,6 +44,7 @@ export function DashboardHeader() {
             >
               <User className="h-5 w-5" />
             </Button>
+            <Logout />
           </div>
         </div>
       </div>

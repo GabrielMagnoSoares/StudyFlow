@@ -191,7 +191,7 @@ export type ActivityWhereInput = {
   AND?: Prisma.ActivityWhereInput | Prisma.ActivityWhereInput[]
   OR?: Prisma.ActivityWhereInput[]
   NOT?: Prisma.ActivityWhereInput | Prisma.ActivityWhereInput[]
-  id?: Prisma.StringFilter<"Activity"> | string
+  id?: Prisma.UuidFilter<"Activity"> | string
   act_name?: Prisma.StringFilter<"Activity"> | string
   subject?: Prisma.StringFilter<"Activity"> | string
   dueAt?: Prisma.DateTimeNullableFilter<"Activity"> | Date | string | null
@@ -240,7 +240,7 @@ export type ActivityScalarWhereWithAggregatesInput = {
   AND?: Prisma.ActivityScalarWhereWithAggregatesInput | Prisma.ActivityScalarWhereWithAggregatesInput[]
   OR?: Prisma.ActivityScalarWhereWithAggregatesInput[]
   NOT?: Prisma.ActivityScalarWhereWithAggregatesInput | Prisma.ActivityScalarWhereWithAggregatesInput[]
-  id?: Prisma.StringWithAggregatesFilter<"Activity"> | string
+  id?: Prisma.UuidWithAggregatesFilter<"Activity"> | string
   act_name?: Prisma.StringWithAggregatesFilter<"Activity"> | string
   subject?: Prisma.StringWithAggregatesFilter<"Activity"> | string
   dueAt?: Prisma.DateTimeNullableWithAggregatesFilter<"Activity"> | Date | string | null

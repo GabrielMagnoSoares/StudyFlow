@@ -19,7 +19,10 @@ export function FocusSession() {
   }
 
   return (
-    <Card className="border-border/50 bg-linear-to-br from-card via-card to-accent/5">
+    <Card className="border-border/50 bg-linear-to-br from-card via-card to-accent/5 relative">
+    <div className="absolute top-2 right-2 bg-yellow-500 text-xs text-black px-2 py-1 rounded-md">
+    Em desenvolvimento
+  </div>
       <CardHeader>
         <CardTitle className="text-lg font-semibold text-foreground">Sessão de Foco</CardTitle>
         <CardDescription className="text-muted-foreground">Modo Pomodoro - 25 minutos</CardDescription>

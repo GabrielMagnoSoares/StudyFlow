@@ -15,7 +15,10 @@ export function StudyChart() {
   ]
 
   return (
-    <Card className="border-border/50">
+    <Card className="border-border/50 relative">
+      <div className="absolute top-2 right-2 bg-yellow-500 text-xs text-black px-2 py-1 rounded-md">
+    Em desenvolvimento
+  </div>
       <CardHeader>
         <CardTitle className="text-lg font-semibold text-foreground">Horas Estudadas</CardTitle>
         <CardDescription className="text-muted-foreground">Últimos 7 dias</CardDescription>

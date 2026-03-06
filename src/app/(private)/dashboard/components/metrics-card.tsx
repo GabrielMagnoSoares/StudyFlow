@@ -34,7 +34,10 @@ export function MetricsCards() {
       {metrics.map((metric) => {
         const Icon = metric.icon
         return (
-          <Card key={metric.title} className="border-border/50">
+          <Card key={metric.title} className="border-border/50 relative">
+            <div className="absolute top-2 right-2 bg-yellow-500 text-xs text-black px-2 py-1 rounded-md">
+    Em desenvolvimento
+  </div>
             <CardContent className="p-6">
               <div className="flex items-start justify-between">
                 <div className="space-y-2">
